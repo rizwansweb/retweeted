@@ -1,0 +1,434 @@
+body {
+	background-color: #05050A;
+	font-family: "Inter", serif;
+	font-optical-sizing: auto;
+	overflow-x: hidden;
+}
+
+.btn-primary {
+	--bs-btn-color: #fff;
+	--bs-btn-bg: #2563EB;
+	--bs-btn-border-color: #2563EB;
+	--bs-btn-hover-color: #fff;
+	--bs-btn-hover-bg: #26469F;
+	--bs-btn-hover-border-color: #26469F;
+	--bs-btn-focus-shadow-rgb: 49, 132, 253;
+	--bs-btn-active-color: #fff;
+	--bs-btn-active-bg: #26469F;
+	--bs-btn-active-border-color: #26469F;
+	--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+	--bs-btn-disabled-color: #fff;
+	--bs-btn-disabled-bg: #2563EB;
+	--bs-btn-disabled-border-color: #2563EB;
+}
+
+.btn-group-lg>.btn,
+.btn-lg {
+	--bs-btn-padding-y: 0.75rem;
+	--bs-btn-padding-x: 1.5rem;
+	--bs-btn-font-size: 1rem;
+	--bs-btn-border-radius: var(--bs-border-radius-lg);
+}
+
+.btn-shadow {
+	box-shadow: 0 0 16px #2563EB;
+}
+
+.border-10 {
+	border-width: 10px !important;
+}
+
+.navbar {
+	background: rgb(5, 5, 10, 0.1);
+	backdrop-filter: blur(7px);
+}
+
+.navbar h2.logo {
+	font-size: 28px;
+	background: rgb(37, 99, 235);
+	background: linear-gradient(90deg, rgba(96, 165, 250, 1) 0%, rgba(37, 99, 235, 1) 100%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.navbar-nav .nav-link {
+	color: #fff !important;
+	text-shadow: 0 0 10px #fff;
+	border-radius: 0.5rem;
+	padding: 0.5rem 1rem !important;
+}
+
+.navbar-nav .nav-link:hover {
+	color: var(--bs-nav-pills-link-active-color);
+	background-color: rgb(255, 255, 255, 0.2);
+}
+
+#banner {
+	background: linear-gradient(-10deg, rgba(0, 0, 0, 1) 0%, rgba(28, 23, 112, 0.4) 50%, rgba(0, 0, 0, 1) 100%);
+	padding-top: 170px;
+}
+
+#banner h2.text-gradient {
+	background: rgb(37, 99, 235);
+	background: linear-gradient(90deg, rgba(96, 165, 250, 1) 0%, rgba(37, 99, 235, 1) 100%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.banner-bottom-shade {
+	background: linear-gradient(0deg, rgba(5, 5, 10, 1) 0%, rgba(5, 5, 10, 0) 100%);
+	height: 150px;
+}
+
+/*==FEATURE 1==*/
+
+#feature1 {
+	padding-top: 280px;
+	padding-bottom: 160px;
+}
+
+#feature1 .heading-pill {
+	background-color: #111023;
+	border-color: #292754 !important;
+	color: #4A7EEE;
+}
+
+#feature1 .bg-fade {
+	left: 50%;
+	margin-left: -1200px;
+	top: 50%;
+	margin-top: -450px;
+	opacity: 50%;
+}
+
+/*==FEATURE 2==*/
+
+#feature2 {
+	padding-top: 160px;
+	padding-bottom: 160px;
+}
+
+#feature2 .heading-pill {
+	background-color: #22111C;
+	border-color: #532944 !important;
+	color: #E670BD;
+}
+
+#feature2 .bg-fade {
+	left: 50%;
+	margin-right: -1200px;
+	top: 50%;
+	margin-top: -450px;
+	opacity: 50%;
+}
+
+/*==FEATURE 3==*/
+
+#feature3 {
+	padding-top: 160px;
+	padding-bottom: 160px;
+}
+
+#feature3 .heading-pill {
+	background-color: #102223;
+	border-color: #275354 !important;
+	color: #75F5F9;
+}
+
+#feature3 .bg-fade {
+	left: 50%;
+	margin-left: -1200px;
+	top: 50%;
+	margin-top: -450px;
+	opacity: 50%;
+}
+
+/*==HOW TO==*/
+
+#howto {
+	padding-top: 160px;
+	padding-bottom: 280px;
+}
+
+#howto .heading-pill {
+	background-color: #111023;
+	border-color: #292754 !important;
+	color: #4A7EEE;
+}
+
+#howto .bg-fade-1 {
+	left: 50%;
+	margin-left: -600px;
+	margin-top: -450px;
+	opacity: 40%;
+}
+
+#howto .bg-fade-2 {
+	left: 50%;
+	margin-left: -600px;
+	bottom: 0;
+	margin-bottom: -450px;
+	opacity: 40%;
+}
+
+#howto h2 {
+	background: linear-gradient(-90deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0.4) 100%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#howto .icon {
+	background: rgb(37, 99, 235);
+	background: linear-gradient(90deg, rgba(96, 165, 250, 1) 0%, rgba(37, 99, 235, 1) 100%);
+}
+
+#howto .icon img {
+	width: 28px;
+}
+
+#howto .container-fluid {
+	max-width: 1550px !important;
+}
+
+/*==WHY==*/
+
+#why {
+	padding-top: 160px;
+	padding-bottom: 180px;
+	background-image: url('../images/why-bg.jpg');
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: top;
+}
+
+#why h2 {
+	background: linear-gradient(-90deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0.4) 100%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#why .heading-pill {
+	background-color: #111023;
+	border-color: #292754 !important;
+	color: #569AF7;
+}
+
+#why .why-block-first {
+	min-height: 400px;
+	background: rgb(37, 99, 235);
+	background: linear-gradient(90deg, rgba(96, 165, 250, 0.2) 0%, rgba(37, 99, 235, 0.2) 100%);
+}
+
+#why .why-block {
+	min-height: 400px;
+	background: rgb(35, 35, 38);
+	background: linear-gradient(0deg, rgba(35, 35, 38, 0.5) 0%, rgba(46, 46, 52, 0.5) 100%);
+}
+
+#why .why-block:hover {
+	background: rgb(37, 99, 235);
+	background: linear-gradient(90deg, rgba(96, 165, 250, 0.2) 0%, rgba(37, 99, 235, 0.2) 100%);
+}
+
+#why .why-block-first .bg-image {
+	right: -180px;
+	top: -140px;
+}
+
+#why .why-block .bg-image {
+	left: 0;
+	top: -120px;
+}
+
+/*==PRICING==*/
+
+#pricing {
+	padding-top: 160px;
+	padding-bottom: 160px;
+}
+
+#pricing .heading-pill {
+	background-color: #111023;
+	border-color: #292754 !important;
+	color: #4A7EEE;
+}
+
+#pricing .bg-fade-1 {
+	left: 50%;
+	margin-left: -600px;
+	margin-top: -450px;
+	opacity: 40%;
+}
+
+#pricing .bg-fade-2 {
+	left: 50%;
+	margin-left: -600px;
+	bottom: 0;
+	opacity: 40%;
+}
+
+#pricing h2 {
+	background: linear-gradient(-90deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0.4) 100%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#pricing .big-text {
+	font-size: 240px;
+	margin-top: -130px !important;
+}
+
+#pricing .pricing-block {
+	margin-top: -130px !important;
+	background: rgb(17, 24, 39, 0.4);
+	backdrop-filter: blur(10px);
+}
+
+#pricing .pricing-block i {
+	background: rgb(37, 99, 235);
+	background: linear-gradient(90deg, rgba(96, 165, 250, 1) 0%, rgba(37, 99, 235, 1) 100%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+/*==TESTIMONIAL==*/
+
+#testimonial {
+	padding-top: 160px;
+	padding-bottom: 160px;
+}
+
+#testimonial .heading-pill {
+	background-color: #111023;
+	border-color: #292754 !important;
+	color: #4A7EEE;
+}
+
+#testimonial .bg-fade-1 {
+	left: -600px;
+	top: -300px;
+	opacity: 80%;
+}
+
+#testimonial .bg-fade-2 {
+	right: -600px;
+	bottom: -300px;
+	opacity: 80%;
+}
+
+.testimonial-block-wrap {
+	width: 400px;
+	background: linear-gradient(145deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%);
+	padding: 1px;
+	border-radius: 20px;
+}
+
+.testimonial-block {
+	background: #05050A;
+	border-radius: 20px;
+}
+
+/*==CTA==*/
+
+#cta {
+	padding-top: 160px;
+	padding-bottom: 160px;
+}
+
+#cta .cta-block {
+	background: rgb(255, 255, 255, 0.05);
+	min-height: 400px;
+}
+
+/*==FOOTER==*/
+
+footer .bg-fade {
+	left: 50%;
+	margin-left: -600px;
+	margin-top: -450px;
+	opacity: 50%;
+}
+
+
+/*==TESTIMONIAL ANIMATION==*/
+
+.home-ctest-wrapper {
+	grid-column-gap: 3rem;
+	grid-row-gap: 3rem;
+	justify-content: flex-start;
+	align-items: start;
+	display: flex;
+	position: relative;
+	overflow: hidden;
+}
+
+.home-ctest-wrapper.reverse {
+	margin-top: 2rem;
+}
+
+.clients-grid.ctest-animate {
+	grid-column-gap: 3rem;
+	opacity: 1;
+	flex: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 0;
+	display: flex;
+}
+
+.ctest-animate {
+	animation: slide 20s infinite linear;
+}
+
+.clients-grid.ctest-animate-alt {
+	grid-column-gap: 3rem;
+	flex: none;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: auto;
+	display: flex;
+}
+
+.ctest-animate-alt {
+	animation: slidealt 20s infinite linear;
+	animation-direction: reverse;
+}
+
+/* Animation for the first right to left marquee */
+@keyframes slide {
+	0% {
+		transform: translateX(calc(0% + 50px));
+	}
+
+	100% {
+		transform: translateX(-50%);
+	}
+}
+
+.ctest-animate {
+	animation: slide 20s infinite linear;
+	/* Adjust the seconds for a slower or faster animation */
+}
+
+/* Animation for the second left to right marquee */
+@keyframes slidealt {
+	0% {
+		transform: translateX(calc(0% + 50px));
+	}
+
+	100% {
+		transform: translateX(-50%);
+	}
+}
+
+.ctest-animate-alt {
+	animation: slidealt 20s infinite linear;
+	/* Adjust the seconds for a slower or faster animation */
+	animation-direction: reverse;
+}

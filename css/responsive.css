@@ -1,0 +1,106 @@
+@media screen and (max-width: 600px) {
+	body {
+		overflow-x: hidden;
+	}
+
+	p {
+		font-size: 0.9rem !important;
+	}
+
+	.small {
+		font-size: 0.75rem;
+	}
+
+	.navbar h2.logo {
+		font-size: 24px;
+	}
+
+	#banner {
+		padding-top: 120px;
+	}
+
+	#banner h4 {
+		font-size: 1rem;
+	}
+
+	.banner-bottom-shade {
+		height: 100px;
+	}
+
+	#feature1 {
+		padding-top: 120px;
+		padding-bottom: 80px;
+	}
+
+	#feature2 {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+
+	#feature3 {
+		padding-top: 80px;
+		padding-bottom: 120px;
+	}
+
+	#howto {
+		padding-top: 80px;
+		padding-bottom: 120px;
+	}
+
+	#howto .container-fluid {
+		max-width: auto !important;
+	}
+
+	#why {
+		padding-top: 80px;
+		padding-bottom: 80px;
+		background-size: 200%;
+	}
+
+	#why .why-block-first {
+		min-height: 360px;
+	}
+
+	#why .why-block {
+		min-height: 360px;
+		;
+	}
+
+	#why .why-block-first .bg-image {
+		right: -180px;
+		top: -60px;
+	}
+
+	#why .why-block .bg-image {
+		left: -100px;
+		top: -120px;
+	}
+
+	#pricing {
+		padding-top: 80px;
+		padding-bottom: 120px;
+	}
+
+	#pricing .big-text {
+		font-size: 100px;
+		margin-top: -80px !important;
+	}
+
+	#pricing .pricing-block {
+		margin-top: -50px !important;
+	}
+
+	#testimonial {
+		padding-top: 80px;
+		padding-bottom: 120px;
+	}
+
+	#cta {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+
+	#cta .cta-block {
+		min-height: auto !important;
+	}
+}
